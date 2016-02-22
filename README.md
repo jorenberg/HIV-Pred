@@ -8,3 +8,7 @@ The **H**uman **I**mmunodeficiency **V**irus (HIV) is a lentivirus (a subgroup o
 
 ### Mechanism:
 HIV infects vital cells in the human immune system such as helper T cells (specifically CD4<sup>+</sup> T cells), macrophages, and dendritic cells. HIV infection leads to low levels of CD4<sup>+</sup> T cells through a number of mechanisms, including pyroptosis of abortively infected T cells, apoptosis of uninfected bystander cells, direct viral killing of infected cells, and killing of infected CD4<sup>+</sup> T cells by CD8 cytotoxic lymphocytes that recognize infected cells. When CD4<sup>+</sup> T cell numbers decline below a critical level, cell-mediated immunity is lost, and the body becomes progressively more susceptible to opportunistic infections.
+
+### Project Overview:
+- Machine Learning Algorithmic models implementation in R and Python to predict HIV resistance phenotypes.
+- Python implementation for Molecular Weight and Isoelectronic Point Calculations.
