@@ -12,3 +12,5 @@ HIV infects vital cells in the human immune system such as helper T cells (speci
 ### Project Overview:
 - Machine Learning Algorithmic models implementation in R and Python to predict HIV resistance phenotypes.
 - Python implementation for Molecular Weight and Isoelectronic Point Calculations.
+- Building of Protein Data Frame (for storing data tables) using [Python](https://www.python.org/) – [Pandas](http://pandas.pydata.org/).
+- Molecular Modeling of HIV Protease, using [RasMol](http://www.openrasmol.org/), [PyMol](https://www.pymol.org/) and [Discovery Studio Viewer](http://accelrys.com/).
