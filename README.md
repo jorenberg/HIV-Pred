@@ -36,3 +36,6 @@ HIV infects vital cells in the human immune system such as helper T cells (speci
 - IDE – Sublime Text, RStudio and PyCharm.
 - Server – Dali, EBI, SCOP and MEME.
 - Environment – Mac OSX (HFS, Hierarchical File System).
+
+### Author:
+[Prabhat Kumar](http://prabhatkumar.org/), Data Scientist at [Sequømics Corporation](http://sequomics.com/).
