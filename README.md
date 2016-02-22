@@ -24,3 +24,15 @@ HIV infects vital cells in the human immune system such as helper T cells (speci
 - Comparative (Similarity Index) study of HIV Protease through statistical analysis.
 - To perform Data Visualization of HIV deaths, using Graph Theory/D3/SVG + HTML5/SASS/CSS3.
 - This approach is to provide a ML model to predict HIV resistance phenotype.
+
+### Technology:
+- Data Collection – Protein Data Bank.
+- Algorithms – Machine Learning, EM and Molecular Modeling – Python.
+- Data Frame – Python.
+- Data Format(s) – FASTA, PDB, CSV and TXT.
+- ETL – Python.
+- Data Visualization – Graph Theory/D3/SVG + HTML5/SASS/CSS3.
+- Build System – Ruby, Grunt and Node.js®.
+- IDE – Sublime Text, RStudio and PyCharm.
+- Server – Dali, EBI, SCOP and MEME.
+- Environment – Mac OSX (HFS, Hierarchical File System).
