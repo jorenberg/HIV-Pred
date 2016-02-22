@@ -21,3 +21,6 @@ HIV infects vital cells in the human immune system such as helper T cells (speci
   - best C⍺-alignment of compared structures.
 - Protein Structure Database Searching by [DaliLite](http://ekhidna.biocenter.helsinki.fi/dali_server/) v3.0.
 - Applying EM (expectation maximisation) algorithm via [MEME](http://meme-suite.org) to discover motifs.
+- Comparative (Similarity Index) study of HIV Protease through statistical analysis.
+- To perform Data Visualization of HIV deaths, using Graph Theory/D3/SVG + HTML5/SASS/CSS3.
+- This approach is to provide a ML model to predict HIV resistance phenotype.
