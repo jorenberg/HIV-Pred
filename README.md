@@ -14,3 +14,8 @@ HIV infects vital cells in the human immune system such as helper T cells (speci
 - Python implementation for Molecular Weight and Isoelectronic Point Calculations.
 - Building of Protein Data Frame (for storing data tables) using [Python](https://www.python.org/) – [Pandas](http://pandas.pydata.org/).
 - Molecular Modeling of HIV Protease, using [RasMol](http://www.openrasmol.org/), [PyMol](https://www.pymol.org/) and [Discovery Studio Viewer](http://accelrys.com/).
+- Structure Similarity by using – [PDBeFold](http://www.ebi.ac.uk/msd-srv/ssm/cgi-bin/ssmserver):
+  - pairwise comparison and 3D alignment of protein structures,
+  - multiple comparison and 3D alignment of protein structures,
+  - examination of a protein structure for similarity with the whole PDB archive or SCOP archive, and
+  - best C⍺-alignment of compared structures.
