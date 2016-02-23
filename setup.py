@@ -47,3 +47,14 @@ if sys.version_info[:2] < (2, 6):
 if os.name == 'java':
     sys.stderr.write('HIV-Pred®: JavaOS is not supported!\n')
     sys.exit()
+
+# A:3 - NumPy Support Information.
+try:
+    import numpy
+except ImportError:
+    sys.stderr.write('HIV-Pred®: numpy is not installed, you can find it at: http://numpy.scipy.org/\n')
+    sys.exit()
+
+if [int(dgt) for dgt in numpy.__version__.split('.')[:2]] < [1, 4]:
+    sys.stderr.write('HIV-Pred®: numpy v1.4 or later is required, you can find it at: http://numpy.scipy.org/\n')
+    sys.exit()
