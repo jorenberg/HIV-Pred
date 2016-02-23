@@ -28,3 +28,4 @@ __license__     = 'Apache License'
 # =============================== HIV-Pred® ==============================
 import os
 import sys
+import platform
