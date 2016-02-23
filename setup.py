@@ -102,3 +102,14 @@ except ImportError:
 if [int(dgt) for dgt in seaborn.__version__.split('.')[:2]] < [0, 6]:
     sys.stderr.write('HIV-Pred®: seaborn v0.6.0 or later is required, you can find it at: http://stanford.edu/~mwaskom/software/seaborn/\n')
     sys.exit()
+
+# A:8 - NetworkX Support Information.
+try:
+    import networkx
+except ImportError:
+    sys.stderr.write('HIV-Pred®: networkx is not installed, you can find it at: https://networkx.github.io/\n')
+    sys.exit()
+
+if [int(dgt) for dgt in networkx.__version__.split('.')[:2]] < [1, 10]:
+    sys.stderr.write('HIV-Pred®: networkx v1.10 or later is required, you can find it at: https://networkx.github.io/\n')
+    sys.exit()
