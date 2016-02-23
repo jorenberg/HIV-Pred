@@ -66,6 +66,17 @@ except ImportError:
     sys.stderr.write('HIV-Pred®: scipy is not installed, you can find it at: http://www.scipy.org/\n')
     sys.exit()
 
-if [int(dgt) for dgt in scipy.__version__.split('.')[:2]] < [3, 4]:
+if [int(dgt) for dgt in scipy.__version__.split('.')[:2]] < [0, 4]:
     sys.stderr.write('HIV-Pred®: scipy v0.14 or later is required, you can find it at: http://www.scipy.org/\n')
+    sys.exit()
+
+# A:5 - scikit-learn Support Information.
+try:
+    import sklearn
+except ImportError:
+    sys.stderr.write('HIV-Pred®: scikit-learn is not installed, you can find it at: http://scikit-learn.org/\n')
+    sys.exit()
+
+if [int(dgt) for dgt in sklearn.__version__.split('.')[:2]] < [0, 15]:
+    sys.stderr.write('HIV-Pred®: scikit-learn v0.15.0 or later is required, you can find it at: http://scikit-learn.org/\n')
     sys.exit()
