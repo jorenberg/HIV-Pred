@@ -80,3 +80,14 @@ except ImportError:
 if [int(dgt) for dgt in sklearn.__version__.split('.')[:2]] < [0, 15]:
     sys.stderr.write('HIV-Pred®: scikit-learn v0.15.0 or later is required, you can find it at: http://scikit-learn.org/\n')
     sys.exit()
+
+# A:6 - matplotlib Support Information.
+try:
+    import matplotlib
+except ImportError:
+    sys.stderr.write('HIV-Pred®: matplotlib is not installed, you can find it at: http://matplotlib.org/\n')
+    sys.exit()
+
+if [int(dgt) for dgt in matplotlib.__version__.split('.')[:2]] < [1, 5]:
+    sys.stderr.write('HIV-Pred®: matplotlib v1.5.0 or later is required, you can find it at: http://matplotlib.org/\n')
+    sys.exit()
