@@ -117,3 +117,12 @@ if [int(dgt) for dgt in networkx.__version__.split('.')[:2]] < [1, 10]:
 # =============================== HIV-Pred® ==============================
 # A:9 - HIV-Pred® Information.
 __version__ 	= '1.0.0'
+
+with open('app/__init__.py') as inp:
+    for line in inp:
+        if line.startswith('__version__'):
+            exec(line.strip())
+            break
+
+with open('docs/README.rst') as inp:
+    long_description = inp.read()
