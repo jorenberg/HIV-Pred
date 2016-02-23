@@ -113,3 +113,7 @@ except ImportError:
 if [int(dgt) for dgt in networkx.__version__.split('.')[:2]] < [1, 10]:
     sys.stderr.write('HIV-Pred®: networkx v1.10 or later is required, you can find it at: https://networkx.github.io/\n')
     sys.exit()
+
+# =============================== HIV-Pred® ==============================
+# A:9 - HIV-Pred® Information.
+__version__ 	= '1.0.0'
