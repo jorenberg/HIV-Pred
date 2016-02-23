@@ -91,3 +91,14 @@ except ImportError:
 if [int(dgt) for dgt in matplotlib.__version__.split('.')[:2]] < [1, 5]:
     sys.stderr.write('HIV-Pred®: matplotlib v1.5.0 or later is required, you can find it at: http://matplotlib.org/\n')
     sys.exit()
+
+# A:7 - seaborn Support Information.
+try:
+    import seaborn
+except ImportError:
+    sys.stderr.write('HIV-Pred®: seaborn is not installed, you can find it at: http://stanford.edu/~mwaskom/software/seaborn/\n')
+    sys.exit()
+
+if [int(dgt) for dgt in seaborn.__version__.split('.')[:2]] < [0, 6]:
+    sys.stderr.write('HIV-Pred®: seaborn v0.6.0 or later is required, you can find it at: http://stanford.edu/~mwaskom/software/seaborn/\n')
+    sys.exit()
